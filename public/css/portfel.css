@@ -1,0 +1,273 @@
+.kontener
+{
+    
+    border-radius: 10px;
+   
+ 
+     margin: 40px auto;
+     margin-bottom: 80px;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    width: 90%;
+    background-color: wheat;
+    
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    color: black;
+    text-align: center;
+  }
+  #sygnaly
+  {
+      font-weight: bold;
+  }
+  .pag
+  {
+   
+      text-align: center ;
+    
+  }
+#nav
+{
+       
+    background: #ffffff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #e0f4ff, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #eaf8ff, #ffe7ea); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.575)
+}
+body{
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#naglowek
+{
+    text-align: center;
+    margin: 2% auto;
+    font-size: 20pt;
+    font-family: "Nunito";
+
+}
+#plus
+{
+    color: green;
+}
+#minus
+{
+    color: red;
+}
+table{
+    text-align: center;
+    font-size: 13pt;
+    font-family: "Nunito";
+}
+#kup
+{
+
+
+    width: 100%;
+}
+#head
+{
+    font-weight: bold;
+}
+#form1 {
+
+    display:none;
+  
+ }
+ #anuluj
+  {
+      color: white;
+  }
+  #paginate
+  {
+      text-align: center;
+  }
+
+/* CSSY do addsygnal.blade */
+
+#addsygnal
+{
+    width: 80%;
+    margin: auto;
+   
+}
+#box
+{
+    max-width: 60%;
+    margin: auto;
+    height:20%;
+}
+#zdjecie
+{
+      width: 100%;
+  height: auto;
+}
+
+/* Post sygnału */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .Smodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .Smodal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .Smodal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .Sclose {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .Sclose:hover,
+  .Sclose:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .Smodal-content {
+      width: 100%;
+    }
+  }
+
+  #Sparent {
+      font-size:18pt;
+      border: 2px;
+      border-bottom: 1px solid #000;
+     
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+  #Slewa {
+      font-weight: bold;
+    overflow: hidden;
+    width: 50%;
+    text-align: center;
+   
+    /* Grow to rest of container */
+  }
+  #Sprawa {
+      text-align: center;
+    border-left: 1px solid #000;
+    flex:1;
+  
+    }
+  
+
+
+    #Sbox
+{   
+   
+    background-color: wheat;
+    border-radius: 10pt;
+    width: 80%;
+    margin: 10%;
+    height:auto;
+}
+#opis
+{   width: 100%;
+
+    border-bottom: 1px solid #000;
+}
+#tekst_opisu
+{   
+    font-size: 16pt;
+    text-align: left;
+    overflow: hidden;
+    margin: 5%;
+}
+#nick
+{
+    width: 100%;
+
+    border-bottom: 1px solid #000;
+}
+#nick_tekst
+{
+    font-size: 12pt;
+    text-align: left;
+    overflow: hidden;
+    margin: 5%;
+}
+#sygnal
+{   text-align: center;
+    margin-top: 3%;
+    margin: 3%;
+   
+    
+}
+h1
+{
+    text-align: center;
+}
+#Snaglowek
+{
+    margin-top: 5%;
+}
+#Sbrak
+{
+    text-align: center;
+    font-size: 20pt;
+    margin: 5%;
+}
